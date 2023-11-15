@@ -1,0 +1,35 @@
+.searchContainer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  margin-top: 40px;
+  margin-bottom: 30px;
+}
+
+input{
+  padding: 10px 20px;
+  outline: none;
+  font-size: 18px;
+  border: none;
+  background-color: rgb(237, 230, 230);
+  color: green;
+  border-radius: 5px;
+}
+
+input::placeholder{
+  color: green;
+  font-weight: bold;
+}
+
+button{
+  background-color: rgb(50, 134, 50);
+  border: none;
+  color: white;
+  border-radius: 5px;
+  padding: 10px 20px;
+  /* outline: none; */
+  font-size: 18px;
+  cursor: pointer;
+}
